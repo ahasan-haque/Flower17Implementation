@@ -39,3 +39,6 @@ To run this model:
 However, the flower17 dataset is not included in this repository due to its size. Please **download** the dataset to the root of the directory structure before run the code.
 
 
+Here is the training loss and accuracy graph for training and test data.
+
+![alt text](minivgg.png)
