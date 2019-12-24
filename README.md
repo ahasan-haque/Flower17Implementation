@@ -4,6 +4,8 @@ In this repository, 3 different model is trained with flower17 dataset, and by c
 
 ### MiniVGGNet
 
+For the first model, I have considered the MiniVGG network. We will provide 64 * 64 * 3 input of this model. Here is the model structure in tabular format. 
+
 | Layer Type | Output Size | Filter Size / Stride |
 | --- | --- | --- |
 | Input image |  64 × 64 × 3 |    |
@@ -29,3 +31,11 @@ In this repository, 3 different model is trained with flower17 dataset, and by c
 | DROPOUT | 512 | |
 | FC | 17 | |
 | SOFTMAX | 17 | |
+
+To run this model:
+
+`python minivggnet.py --dataset <path to dataset>`
+
+However, the flower17 dataset is not included in this repository due to its size. Please **download** the dataset to the root of the directory structure before run the code.
+
+
